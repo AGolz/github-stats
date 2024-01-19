@@ -18,6 +18,5 @@ user.fetchContent()
             data: user,
             theme: themes.getTheme(req_theme)
         })
-
         fs.writeFileSync("./github_stats.svg", outString)
     })
